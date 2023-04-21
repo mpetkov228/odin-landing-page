@@ -56,14 +56,15 @@
     font-size: 18px;
 }
 
-.hero .main button {
+.main button {
     color: white;
     background-color: #3882F6;
-    padding: 8px 24px;
+    padding: 10px 30px;
     border-radius: 10px;
     border: none;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .main-img {
@@ -134,4 +135,42 @@
     color: #1F2937;
     font-weight: bold;
     text-align: end;
+}
+
+.cta-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background: #3882F6;
+    height: 125px;
+    flex-basis: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-text {
+    color: white;
+    font-size: 18px;
+}
+
+.cta-text :first-child {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-button {
+    background: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
 }
