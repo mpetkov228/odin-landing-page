@@ -174,3 +174,13 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.footer {
+    background: #1F2937;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
