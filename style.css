@@ -45,12 +45,12 @@
     flex: 1;
 }
 
-.hero .main h1 {
+.main h1 {
     color: #F9FAF8;
     font-size: 48px;
 }
 
-.hero .main p {
+.main p {
     color: #E5E7EB;
     margin-bottom: 10px;
     font-size: 18px;
@@ -66,14 +66,47 @@
     font-weight: bold;
 }
 
-.hero .main-img {
+.main-img {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img {
+.main-img img {
     width: 350px;
     height: auto;
+}
+
+.info-section {
+    padding-bottom: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.info-card {
+    flex-basis: 165px;
+}
+
+.info-card img {
+    width: 165px;
+    border-radius: 10px;
+}
+
+.info-card p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
 }
